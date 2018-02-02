@@ -1,0 +1,10 @@
+id: performance
+name: Custom logo aggregator
+description: The aggregator replaces default Allure logo with a custom one
+extensions:
+  -  com.avaloq.allure.plugin.performance.Plugin
+  -  com.avaloq.allure.plugin.performance.JacksonContext
+cssFiles:
+  - styles.css
+jsFiles:
+  - index.js
