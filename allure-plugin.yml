@@ -1,6 +1,6 @@
 id: performance
-name: Custom logo aggregator
-description: The aggregator replaces default Allure logo with a custom one
+name: Custom performance plugin
+description: Tab to present links to the performance tests results
 extensions:
   -  com.avaloq.allure.plugin.performance.Plugin
   -  com.avaloq.allure.plugin.performance.JacksonContext
